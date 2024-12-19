@@ -1,0 +1,79 @@
+.atas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 150%;
+}
+
+.bawah{
+    width: 970px;
+    height: 50px;
+    display: flex;
+}
+
+.box{
+    width: 300px;
+    margin: 10px;
+    height: 90px;
+    display: flex;
+    border: 2px solid palevioletred;
+    background-color: plum;
+}
+
+.box1{
+    width: 300px;
+    background-size: 100px;
+    height: 90px;
+    background-image: url(https://img.okezone.com/content/2021/05/18/408/2411866/6-tempat-wisata-di-ntt-yang-keren-abis-pantai-pink-hingga-gurun-pasir-2P317VTZaX.jpg);
+    display: flex;
+}
+
+.box2{
+    width: 300px;
+    background-size:130px;
+    height: 90px;
+    background-image: url(https://i1.wp.com/hariannusantara.com/wp-content/uploads/2019/06/gambar-pemandangan-sunset3.jpg);
+    display: flex;
+}
+.box3{
+    width: 300px;
+    background-size:130px;
+    height: 90px;
+    background-image: url(https://cdn.idntimes.com/content-images/community/2019/05/43099896-1919302968163233-2178363727555509970-n-25d0e5bb5bb4064fe1e820b68dda9bea.jpg);
+    display: flex;
+}
+.box4{
+    width: 300px;
+    background-size:130px;
+    height: 90px;
+    background-image: url(https://img.okezone.com/content/2023/12/19/408/2941321/8-destinasi-wisata-di-nihi-sumba-ntt-nomor-2-pantai-pasir-putih-terbaik-se-asia-fxwx9uJJau.JPG);
+    display: flex;
+}
+.box5{
+    width: 300px;
+    background-size:130px;
+    height: 90px;
+    background-image: url(https://tempatwisataseru.com/wp-content/uploads/2020/10/Wisata-Pantai-Timor.jpg);
+    display: flex;
+}
+.box6{
+    width: 300px;
+    background-size:130px;
+    height: 90px;
+    background-image: url(https://assets.kompasiana.com/statics/crawl/55567ebc0423bd7e778b456a.jpeg?tu003dou0026vu003d350);
+    display: flex;
+}
+.box7{
+    width: 300px;
+    background-size:130px;
+    height: 90px;
+    background-image: url(https://cdn.idntimes.com/content-images/community/2019/07/140826145332-nihiwatu-gallery-06-horizontal-large-gallery-orig-1-fc7478c20458afc3a1c39848a95ee2fe.jpg);
+    display: flex;
+}
+.box8{
+    width: 300px;
+    background-size:130px;
+    height: 90px;
+    background-image: url(https://4.bp.blogspot.com/-KnbPE_x-_vA/UTgmU6ciX3I/AAAAAAAAANs/yQhRxea0NQM/s1600/Pantai-paga-sikka-ntt.jpg);
+    display: flex;
+}
+

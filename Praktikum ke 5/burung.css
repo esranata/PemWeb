@@ -1,0 +1,88 @@
+body {
+    background-color: plum;
+}
+
+#header {
+    text-align: center;
+    border: 1px solid black;
+    color: black;
+    background-color: purple;
+}
+
+blockquote {
+    background-color: #B692C2;
+    border-top: dashed;
+    border-left: dashed;
+    margin-top: 10px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0px;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+}
+
+.gambar {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.isi {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#profil {
+    background-color: plum;
+}
+
+#profil h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.koleksi {
+    background-color: plum;
+    align-items: center;
+}
+
+.koleksi img {
+    width: 23%;
+    border: 1px solid black;
+}
+
+.promo {
+    text-align: center;
+    color: black;
+}
+
+.promo h3 {
+    color: black;
+}
+
+.footer {
+    display: flex;
+    background-color: plum;
+    margin: auto;
+    list-style-type: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+    word-spacing: 10px;
+    align-items: center;
+}

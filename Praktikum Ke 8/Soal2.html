@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung KUrs Rupiah</title>
+</head>
+<body>
+    <h1>Konverensi Rupiah Ke Dollar</h1>
+
+    <!--
+    Prosedur
+    1. Membuat input untuk rupiah 
+    2. Tag p untuk menampung hasil
+    3. Deklarasi variabel rupiah untuk menampung nilai input 
+    4. Hutung  pembagian dari variabel rupiah di bagi 15942lalu simpan ke variabel hasil
+    -->
+
+    <label for="rupiah">Masukkan nilai rupiah :</label>
+    <input type="number" id="rupiah" onkeyup="rupiahkeDollar()">
+
+    <p>Hasil Konverensi Ke Dollar : <span id="hasil"></span></p>
+
+    <h1>Konverensi Dollar Ke Rupiah</h1>
+
+    <label for="Dollar">Masukkan nilai dollar :</label>
+    <input type="number" id="Dollar" onkeyup="dollarkeRupiah()">
+
+    <p>Hasil Konverensi Ke Rupiah : <span id="hasil2"></span></p>
+
+    <!-- Java Script -->
+     <script>
+        function rupiahkeDollar(){
+            let rupiah = document.getElementById('rupiah').value;
+            let hasil = rupiah / 15942
+
+            document.getElementById('hasil').innerHTML = hasil.toFixed(2)
+        }
+        function dollarkeRupiah(){
+            let dollar = document.getElementById('Dollar').value;
+            let hasil = Dollar * 15942
+
+            document.getElementById('hasil2').innerHTML = hasil2;
+        }
+     </script>
+</body>
+</html>
